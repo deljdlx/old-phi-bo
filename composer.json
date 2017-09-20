@@ -1,0 +1,54 @@
+{
+	"name": "phi-bo",
+	"description": "A generic backoffice",
+	"repositories": [
+		{"type": "vcs", "url": "git@github.com:ElBiniou/phi-application.git"},
+		{"type": "vcs", "url": "git@github.com:ElBiniou/phi-core.git"},
+		{"type": "vcs", "url": "git@github.com:ElBiniou/phi-autoloader"},
+		{"type": "vcs", "url": "git@github.com:ElBiniou/phi-routing"},
+		{"type": "vcs", "url": "git@github.com:ElBiniou/phi-traits"},
+		{"type": "vcs", "url": "git@github.com:ElBiniou/phi-http"},
+		{"type": "vcs", "url": "git@github.com:ElBiniou/phi-session"},
+		{"type": "vcs", "url": "git@github.com:ElBiniou/phi-cache"},
+		{"type": "vcs", "url": "git@github.com:ElBiniou/phi-database"},
+		{"type": "vcs", "url": "git@github.com:ElBiniou/phi-storage"},
+		{"type": "vcs", "url": "git@github.com:ElBiniou/phi-event"},
+		{"type": "vcs", "url": "git@github.com:ElBiniou/phi-application"},
+		{"type": "vcs", "url": "git@github.com:ElBiniou/phi-component"},
+		{"type": "vcs", "url": "git@github.com:ElBiniou/phi-template"},
+		{"type": "vcs", "url": "git@github.com:ElBiniou/phi-container"},
+		{"type": "vcs", "url": "git@github.com:ElBiniou/phi-configuration"}
+	],
+	"require":
+	{
+		"phi-autoloader": "dev-master",
+		"phi-core": "dev-master",
+		"phi-traits": "dev-master",
+		"phi-routing": "dev-master",
+		"phi-http": "dev-master",
+		"phi-session": "dev-master",
+		"phi-cache": "dev-master",
+		"phi-database": "dev-master",
+		"phi-storage": "dev-master",
+		"phi-event": "dev-master",
+		"phi-application": "dev-master",
+		"phi-component": "dev-master",
+		"phi-template": "dev-master",
+		"phi-container": "dev-master",
+		"phi-configuration": "dev-master"
+	},
+	"require-dev": {
+	},
+	"config": {
+		"process-timeout": 600,
+		"preferred-install": "source"
+	},
+	"autoload": {
+		"psr-4": {
+			"Phi\\Bo\\": "source/class"
+		},
+		"files": [
+
+		]
+	}
+}

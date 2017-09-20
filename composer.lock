@@ -1,0 +1,477 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "dcc33e7552a58a69af307f072f11b4bc",
+    "content-hash": "cff3fa93bceabfd2182f7e85cdf9948b",
+    "packages": [
+        {
+            "name": "phi-application",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ElBiniou/phi-application.git",
+                "reference": "80deb3486a5c588a6acf4561f6c61b879e7c112e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ElBiniou/phi-application/zipball/80deb3486a5c588a6acf4561f6c61b879e7c112e",
+                "reference": "80deb3486a5c588a6acf4561f6c61b879e7c112e",
+                "shasum": ""
+            },
+            "require": {
+                "phi-configuration": "dev-master",
+                "phi-event": "dev-master",
+                "phi-routing": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Phi\\Application\\": "source"
+                },
+                "files": []
+            },
+            "description": "Phi application",
+            "support": {
+                "source": "https://github.com/ElBiniou/phi-application/tree/master",
+                "issues": "https://github.com/ElBiniou/phi-application/issues"
+            },
+            "time": "2017-09-20 09:20:26"
+        },
+        {
+            "name": "phi-autoloader",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ElBiniou/phi-autoloader.git",
+                "reference": "8f92c81e92acbe0bef5077845c1dda9d68db3eca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ElBiniou/phi-autoloader/zipball/8f92c81e92acbe0bef5077845c1dda9d68db3eca",
+                "reference": "8f92c81e92acbe0bef5077845c1dda9d68db3eca",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Phi\\Autoloader\\": "source/class"
+                },
+                "files": [
+                    "source/helper.php"
+                ]
+            },
+            "description": "Phi autoloader",
+            "support": {
+                "source": "https://github.com/ElBiniou/phi-autoloader/tree/master",
+                "issues": "https://github.com/ElBiniou/phi-autoloader/issues"
+            },
+            "time": "2017-08-19 16:56:30"
+        },
+        {
+            "name": "phi-cache",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ElBiniou/phi-cache.git",
+                "reference": "449be2bcb3854a0ede14672eeeb688eb451bcd37"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ElBiniou/phi-cache/zipball/449be2bcb3854a0ede14672eeeb688eb451bcd37",
+                "reference": "449be2bcb3854a0ede14672eeeb688eb451bcd37",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Phi\\Cache\\": "source"
+                },
+                "files": []
+            },
+            "description": "Phi cache",
+            "support": {
+                "source": "https://github.com/ElBiniou/phi-cache/tree/master",
+                "issues": "https://github.com/ElBiniou/phi-cache/issues"
+            },
+            "time": "2017-06-01 11:21:34"
+        },
+        {
+            "name": "phi-component",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ElBiniou/phi-component.git",
+                "reference": "7e15514a2375c814c688715c646306cca4798bb4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ElBiniou/phi-component/zipball/7e15514a2375c814c688715c646306cca4798bb4",
+                "reference": "7e15514a2375c814c688715c646306cca4798bb4",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Mustache": "vendor/mustache/src"
+                },
+                "psr-4": {
+                    "Phi\\Component\\": "source/class"
+                },
+                "files": []
+            },
+            "description": "Phi web-components",
+            "support": {
+                "source": "https://github.com/ElBiniou/phi-component/tree/master",
+                "issues": "https://github.com/ElBiniou/phi-component/issues"
+            },
+            "time": "2017-06-18 12:11:17"
+        },
+        {
+            "name": "phi-configuration",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ElBiniou/phi-configuration.git",
+                "reference": "6943920781ac734138d3f87568fc129c31aff132"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ElBiniou/phi-configuration/zipball/6943920781ac734138d3f87568fc129c31aff132",
+                "reference": "6943920781ac734138d3f87568fc129c31aff132",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Phi\\Event\\": "source"
+                },
+                "files": []
+            },
+            "description": "Phi configuration",
+            "support": {
+                "source": "https://github.com/ElBiniou/phi-configuration/tree/master",
+                "issues": "https://github.com/ElBiniou/phi-configuration/issues"
+            },
+            "time": "2017-06-30 11:46:00"
+        },
+        {
+            "name": "phi-container",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ElBiniou/phi-container.git",
+                "reference": "9244c80d969a0d598018cdd79882a3091dc171ba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ElBiniou/phi-container/zipball/9244c80d969a0d598018cdd79882a3091dc171ba",
+                "reference": "9244c80d969a0d598018cdd79882a3091dc171ba",
+                "shasum": ""
+            },
+            "require": {
+                "phi-event": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Phi\\Container\\": "source"
+                },
+                "files": []
+            },
+            "description": "Phi container",
+            "support": {
+                "source": "https://github.com/ElBiniou/phi-container/tree/master",
+                "issues": "https://github.com/ElBiniou/phi-container/issues"
+            },
+            "time": "2017-07-04 15:22:58"
+        },
+        {
+            "name": "phi-core",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ElBiniou/phi-core.git",
+                "reference": "dde5db835dfb30eb8697d1bbc263483b5579774e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ElBiniou/phi-core/zipball/dde5db835dfb30eb8697d1bbc263483b5579774e",
+                "reference": "dde5db835dfb30eb8697d1bbc263483b5579774e",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "source/helper.php"
+                ],
+                "psr-4": {
+                    "Phi\\Core\\": "source/class"
+                }
+            },
+            "description": "A framework for people who don't like frameworks",
+            "support": {
+                "source": "https://github.com/ElBiniou/phi-core/tree/master",
+                "issues": "https://github.com/ElBiniou/phi-core/issues"
+            },
+            "time": "2017-08-19 16:55:22"
+        },
+        {
+            "name": "phi-database",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ElBiniou/phi-database.git",
+                "reference": "79aee672a02638dfde486003bffaf6451aee799a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ElBiniou/phi-database/zipball/79aee672a02638dfde486003bffaf6451aee799a",
+                "reference": "79aee672a02638dfde486003bffaf6451aee799a",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Phi\\Database\\": "source/class"
+                },
+                "files": []
+            },
+            "description": "Phi database",
+            "support": {
+                "source": "https://github.com/ElBiniou/phi-database/tree/master",
+                "issues": "https://github.com/ElBiniou/phi-database/issues"
+            },
+            "time": "2017-08-05 15:58:39"
+        },
+        {
+            "name": "phi-event",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ElBiniou/phi-event.git",
+                "reference": "2e44910b1bc33e757e6f6d635f94d647c9127f4d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ElBiniou/phi-event/zipball/2e44910b1bc33e757e6f6d635f94d647c9127f4d",
+                "reference": "2e44910b1bc33e757e6f6d635f94d647c9127f4d",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Phi\\Event\\": "source/class"
+                },
+                "files": []
+            },
+            "description": "Phi event",
+            "support": {
+                "source": "https://github.com/ElBiniou/phi-event/tree/master",
+                "issues": "https://github.com/ElBiniou/phi-event/issues"
+            },
+            "time": "2017-06-29 17:36:27"
+        },
+        {
+            "name": "phi-http",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ElBiniou/phi-http.git",
+                "reference": "56f0cc279c1e76d51a41be459808a06a0f7d3acf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ElBiniou/phi-http/zipball/56f0cc279c1e76d51a41be459808a06a0f7d3acf",
+                "reference": "56f0cc279c1e76d51a41be459808a06a0f7d3acf",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Phi\\HTTP\\": "source/class"
+                },
+                "files": []
+            },
+            "description": "Phi http",
+            "support": {
+                "source": "https://github.com/ElBiniou/phi-http/tree/master",
+                "issues": "https://github.com/ElBiniou/phi-http/issues"
+            },
+            "time": "2017-09-19 15:40:36"
+        },
+        {
+            "name": "phi-routing",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ElBiniou/phi-routing.git",
+                "reference": "fa35f70996083efe86a31fd4a9b9d518ff09e263"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ElBiniou/phi-routing/zipball/fa35f70996083efe86a31fd4a9b9d518ff09e263",
+                "reference": "fa35f70996083efe86a31fd4a9b9d518ff09e263",
+                "shasum": ""
+            },
+            "require": {
+                "phi-event": "dev-master",
+                "phi-http": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Phi\\Routing\\": "source/class"
+                },
+                "files": []
+            },
+            "description": "Phi routing",
+            "support": {
+                "source": "https://github.com/ElBiniou/phi-routing/tree/master",
+                "issues": "https://github.com/ElBiniou/phi-routing/issues"
+            },
+            "time": "2017-09-20 09:20:43"
+        },
+        {
+            "name": "phi-session",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ElBiniou/phi-session.git",
+                "reference": "89bf2fec0878517de360cee2abeb943941d94290"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ElBiniou/phi-session/zipball/89bf2fec0878517de360cee2abeb943941d94290",
+                "reference": "89bf2fec0878517de360cee2abeb943941d94290",
+                "shasum": ""
+            },
+            "require": {
+                "phi-http": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Phi\\Session\\": "source/class"
+                },
+                "files": []
+            },
+            "description": "Phi session",
+            "support": {
+                "source": "https://github.com/ElBiniou/phi-session/tree/master",
+                "issues": "https://github.com/ElBiniou/phi-session/issues"
+            },
+            "time": "2017-06-01 11:08:33"
+        },
+        {
+            "name": "phi-storage",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ElBiniou/phi-storage.git",
+                "reference": "86344249339e2f3e846c1bb452b1f09c36f8672f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ElBiniou/phi-storage/zipball/86344249339e2f3e846c1bb452b1f09c36f8672f",
+                "reference": "86344249339e2f3e846c1bb452b1f09c36f8672f",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Phi\\Storage\\": "source/class"
+                },
+                "files": []
+            },
+            "description": "Phi storage",
+            "support": {
+                "source": "https://github.com/ElBiniou/phi-storage/tree/master",
+                "issues": "https://github.com/ElBiniou/phi-storage/issues"
+            },
+            "time": "2017-08-21 08:21:44"
+        },
+        {
+            "name": "phi-template",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ElBiniou/phi-template.git",
+                "reference": "e50b4a837fff4b0146825f653b42e45c04396621"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ElBiniou/phi-template/zipball/e50b4a837fff4b0146825f653b42e45c04396621",
+                "reference": "e50b4a837fff4b0146825f653b42e45c04396621",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Phi\\Template\\": "source/class"
+                },
+                "files": []
+            },
+            "description": "Phi template",
+            "support": {
+                "source": "https://github.com/ElBiniou/phi-template/tree/master",
+                "issues": "https://github.com/ElBiniou/phi-template/issues"
+            },
+            "time": "2017-08-08 09:49:56"
+        },
+        {
+            "name": "phi-traits",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ElBiniou/phi-traits.git",
+                "reference": "ae5744bd3c2b3184e586f6397ae7eae7ad355cf0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ElBiniou/phi-traits/zipball/ae5744bd3c2b3184e586f6397ae7eae7ad355cf0",
+                "reference": "ae5744bd3c2b3184e586f6397ae7eae7ad355cf0",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Phi\\Traits\\": "source/class"
+                },
+                "files": []
+            },
+            "description": "Usefull traits",
+            "support": {
+                "source": "https://github.com/ElBiniou/phi-traits/tree/master",
+                "issues": "https://github.com/ElBiniou/phi-traits/issues"
+            },
+            "time": "2017-06-30 12:28:03"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "phi-autoloader": 20,
+        "phi-core": 20,
+        "phi-traits": 20,
+        "phi-routing": 20,
+        "phi-http": 20,
+        "phi-session": 20,
+        "phi-cache": 20,
+        "phi-database": 20,
+        "phi-storage": 20,
+        "phi-event": 20,
+        "phi-application": 20,
+        "phi-component": 20,
+        "phi-template": 20,
+        "phi-container": 20,
+        "phi-configuration": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
