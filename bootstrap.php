@@ -9,7 +9,7 @@ $application->autobuild();
 
 $application->addRoute('index', 'get', '`.*`', function() {
 
-    $view = new \Phi\Bo\View\Main('hello world');
+    $view = new \Phi\Bo\View\Main();
     echo $view->render();
 
     /*
