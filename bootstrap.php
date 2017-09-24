@@ -29,6 +29,8 @@ $application->addRoute('index', 'get', '`.*`', function() {
 
   $layout->registerComponent('phibo-card', \Phi\Bo\Component\Card\Accordion::class);
 
+    $layout->registerComponent('phibo-editor', \Phi\Bo\Component\SummerNote::class);
+
 
 
 

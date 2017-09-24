@@ -9,6 +9,13 @@
 
   <title>{{{title}}}</title>
 
+
+
+    <!-- include summernote -->
+    <link rel="stylesheet" href="./vendor/SummerNote/dist/summernote.css">
+
+
+
     <?php include(__DIR__.'/css.php'); ?>
 </head>
 
@@ -48,7 +55,21 @@
       </div>
 
 
+        <phibo-editor>
+            <property name="content">
 
+
+                <div class="row">
+                    <div style="width: 300px;">
+                        <phibo-card></phibo-card>
+                    </div>
+                    <div>
+                        <?php include(__DIR__.'/fragment/timeline.php');?>
+                    </div>
+
+                </div>
+            </property>
+        </phibo-editor>
 
 
         <div class="row">
@@ -81,23 +102,7 @@
           <div class="col-md-4 col-sm-4 col-xs-12">
               <phibo-panel title="Timeline">
                   <property name="content">
-                      <phibo-timeline>
-                          <property name="content">
-
-                              <phibo-timeline-item title="An item" date="<?php echo date('Y-m-d H:i');?>" source="El Biniou">
-                                  <property name="content">Car s'il suffisait de se tromper pour apprendre, le monde serait peuplé de génies</property>
-                              </phibo-timeline-item>
-
-                              <phibo-timeline-item title="An item" date="<?php echo date('Y-m-d H:i');?>" source="El Biniou">
-                                  <property name="content">Car s'il suffisait de se tromper pour apprendre, le monde serait peuplé de génies</property>
-                              </phibo-timeline-item>
-
-                              <phibo-timeline-item title="An item" date="<?php echo date('Y-m-d H:i');?>" source="El Biniou">
-                                  <property name="content">Car s'il suffisait de se tromper pour apprendre, le monde serait peuplé de génies</property>
-                              </phibo-timeline-item>
-
-                          </property>
-                      </phibo-timeline>
+                    <?php include(__DIR__.'/fragment/timeline.php');?>
                   </property>
               </phibo-panel>
 
@@ -130,7 +135,27 @@
   </div>
 </div>
 
-
 <?php include(__DIR__.'/javascript.php'); ?>
+
+
+
+
+<link rel="stylesheet" href="./vendor/codemirror/lib/codemirror.css">
+
+
+<script src="./vendor/codemirror/lib/codemirror.js"></script>
+<script src="./vendor/codemirror/mode/xml/xml.js"></script>
+<script src="./vendor/codemirror/addon/selection/active-line.js"></script>
+
+<link rel="stylesheet" href="./vendor/codemirror/theme/blackboard.css">
+<link rel="stylesheet" href="./vendor/codemirror/theme/monokai.css">
+
+
+
+
+
+
+
+
 </body>
 </html>
