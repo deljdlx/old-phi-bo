@@ -46,12 +46,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ElBiniou/phi-autoloader.git",
-                "reference": "8f92c81e92acbe0bef5077845c1dda9d68db3eca"
+                "reference": "ba23a64c03256c0826b3b52758a7de5e8f32ec33"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ElBiniou/phi-autoloader/zipball/8f92c81e92acbe0bef5077845c1dda9d68db3eca",
-                "reference": "8f92c81e92acbe0bef5077845c1dda9d68db3eca",
+                "url": "https://api.github.com/repos/ElBiniou/phi-autoloader/zipball/ba23a64c03256c0826b3b52758a7de5e8f32ec33",
+                "reference": "ba23a64c03256c0826b3b52758a7de5e8f32ec33",
                 "shasum": ""
             },
             "type": "library",
@@ -68,7 +68,7 @@
                 "source": "https://github.com/ElBiniou/phi-autoloader/tree/master",
                 "issues": "https://github.com/ElBiniou/phi-autoloader/issues"
             },
-            "time": "2017-08-19T16:56:30+00:00"
+            "time": "2017-09-22T12:26:32+00:00"
         },
         {
             "name": "phi-cache",
